@@ -219,7 +219,11 @@ Disable realtime gamma correction: <input type="checkbox" name="RG"><br>
 Realtime LED offset: <input name="WO" type="number" min="-255" max="255" 
 required><h3>Alexa Voice Assistant</h3>Emulate Alexa device: <input 
 type="checkbox" name="AL"><br>Alexa invocation name: <input name="AI" 
-maxlength="32"><h3>Blynk</h3><b>
+maxlength="32"><h3>Web Speaker</h3>Enable Speaker: <input type="checkbox" 
+name="ENSPKR"><br>Is AAC: <input type="checkbox" name="ISAAC"><br>
+Enable Speaker: <input type="checkbox" name="ENSPKR"><br>Speaker Stream URL: 
+<input name="SPKRURL" maxlength="96"> Speaker Volume: <input name="SPKRVOL" 
+type="number" min="1" max="100"><h3>Blynk</h3><b>
 Blynk, MQTT and Hue sync all connect to external hosts!<br>
 This may impact the responsiveness of the ESP8266.</b><br>
 For best results, only use one of these services at a time.<br>
